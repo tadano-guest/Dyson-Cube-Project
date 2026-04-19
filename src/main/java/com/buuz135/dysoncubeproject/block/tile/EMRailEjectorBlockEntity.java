@@ -5,6 +5,7 @@ import com.buuz135.dysoncubeproject.DCPAttachments;
 import com.buuz135.dysoncubeproject.DCPContent;
 import com.buuz135.dysoncubeproject.client.gui.DysonProgressGuiAddon;
 import com.buuz135.dysoncubeproject.client.gui.SubscribeDysonGuiAddon;
+import com.buuz135.dysoncubeproject.client.gui.UnsubscribeDysonGuiAddon;
 import com.buuz135.dysoncubeproject.world.DysonSphereStructure;
 import com.buuz135.dysoncubeproject.world.DysonSphereProgressSavedData;
 import com.hrznstudio.titanium.annotation.Save;
@@ -253,6 +254,7 @@ public class EMRailEjectorBlockEntity extends BasicTile<EMRailEjectorBlockEntity
         list.addAll(this.input.getScreenAddons());
         list.add(() -> new DysonProgressGuiAddon(this.dysonSphereId, 62, 24));
         list.add(() -> new SubscribeDysonGuiAddon(this.dysonSphereId, 9, 24 + 60));
+        list.add(() -> new UnsubscribeDysonGuiAddon(9 + 18, 24 + 60));
         list.addAll(this.power.getScreenAddons());
         list.addAll(this.progressBarComponent.getScreenAddons());
 

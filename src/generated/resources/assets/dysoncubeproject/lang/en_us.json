@@ -10,6 +10,7 @@
   "gui.dysoncubeproject.progress": "Progress: %s%%",
   "gui.dysoncubeproject.sails": "Sails: %s/%s",
   "gui.dysoncubeproject.subscribe": "Subscribe to this sphere",
+  "gui.dysoncubeproject.unsubscribe": "Unsubscribe to all spheres (You will return to your personal sphere)",
   "item.dysoncubeproject.beam": "Beam",
   "item.dysoncubeproject.beam_package": "Beam Package",
   "item.dysoncubeproject.solar_sail": "Solar Sail",

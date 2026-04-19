@@ -7,6 +7,7 @@
 * Fixed not being able to reach the max amount of sails, closes #29 closes #10
 * Changed the Dyson display in the GUI to show more full numbers and added a tooltip to show the full numbers of
   everything
+* Added a unsubscribe button to the GUI, closes #18 and closes #25
 
 # Version 1.0.2
 
