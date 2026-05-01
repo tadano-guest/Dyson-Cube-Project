@@ -1,3 +1,7 @@
+# Version 1.0.4
+
+* Added advancements
+
 # Version 1.0.3
 
 * Fix Japanese lang file - twister716
